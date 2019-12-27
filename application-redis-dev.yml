@@ -1,7 +1,5 @@
 server:
   port: 9003
-
-#redis的连接配置 - 暂时没用到，硬编码到项目中的
 hrm:
   redis:
     host: 127.0.0.1
