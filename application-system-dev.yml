@@ -1,6 +1,5 @@
 server:
   port: 9001
-
 hrm:
   swagger:
     title: 系统管理服务
