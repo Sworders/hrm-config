@@ -1,17 +1,5 @@
 server:
   port: 9527
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    prefer-ip-address: true
-
-spring:
-  application:
-    name: ZUUL-GATEWAY
-
 zuul:
   prefix: /services
   ignored-services: "*"
@@ -22,6 +10,3 @@ zuul:
     course:
       path: /course/**
       serviceId: COURSE-SERVICE
-ribbon:
-  eureka:
-    enabled: true

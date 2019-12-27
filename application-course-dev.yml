@@ -1,13 +1,5 @@
 server:
   port: 9002
-
-
-spring:
-  application:
-    name: COURSE-SERVICE
-  datasource:
-    url: jdbc:mysql:///hrm?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
-
 hrm:
   swagger:
     title: 课程管理服务
