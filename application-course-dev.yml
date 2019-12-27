@@ -4,3 +4,12 @@ hrm:
   swagger:
     title: 课程管理服务
     description: 课程管理服务接口文档
+spring:
+  application:
+    name: COURSE-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+#开启feign的hystrix
+feign:
+  hystrix:
+    enabled: true
