@@ -13,6 +13,7 @@ zuul:
     course:
       path: /file/**
       serviceId: FILE-SERVICE
+
 hystrix:
   command:
     course-service:
