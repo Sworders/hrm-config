@@ -13,7 +13,6 @@ zuul:
     course:
       path: /file/**
       serviceId: FILE-SERVICE
-#zuul的hystrix超时配置
 hystrix:
   command:
     course-service:
@@ -21,7 +20,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 5000
-#配置zuul的ribbon的超时时间
 ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
