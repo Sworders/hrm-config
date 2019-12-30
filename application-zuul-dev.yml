@@ -13,8 +13,7 @@ zuul:
     course:
       path: /file/**
       serviceId: FILE-SERVICE
-
-# zuul的hystrix超时配置
+#zuul的hystrix超时配置
 hystrix:
   command:
     course-service:
